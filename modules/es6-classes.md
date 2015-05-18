@@ -4,7 +4,7 @@ version : "0.1"
 title : "ECMAScript 6 Classes"
 description : "Understand how classes work in ES6"
 homepage : "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
-freshnessDate : '2015-05-20'
+freshnessDate : 2015-04-12
 license : "CC BY-SA 2.5"
 -->
 
