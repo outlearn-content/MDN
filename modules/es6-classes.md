@@ -2,8 +2,10 @@
 name: es6-classes
 version : "0.1"
 title : "ECMAScript 6 Classes"
-description: "Understand how classes work in ES6"
-license : "MIT"
+description : "Understand how classes work in ES6"
+homepage : "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+freshnessDate : "05/18/2015"
+license : "CC BY-SA 2.5"
 -->
 
 <!-- @section -->
