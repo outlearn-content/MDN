@@ -6,7 +6,7 @@
 "description" : "JavaScript is a programming language that adds interactivity to your website.",
 "homepage" : "https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics",
 "author" : "Mozilla Developer Network",
-"freshnessDate" : 2015-04-22.
+"freshnessDate" : 2015-04-22,
 "license" : "CC BY-SA"
 }
 -->
