@@ -138,6 +138,8 @@ isFinite(NaN); // false
 
 > **Note:** The parseInt() and parseFloat() functions parse a string until they reach a character that isn't valid for the specified number format, then return the number parsed up to that point. However the "+" operator simply converts the string to `NaN` if there is any invalid character in it. Just try parsing the string "10.2abc" with each method by yourself in the console and you'll understand the differences better.
 
+<!-- @task, "text" : "Try parsing the string "10.2abc" with parseInt() and parseFloat()."-->
+
 <!-- @section -->
 
 ## Strings
@@ -159,6 +161,8 @@ There's our first brush with JavaScript objects! Did I mention that you can use 
 "hello, world".replace("hello", "goodbye"); // "goodbye, world"
 "hello".toUpperCase(); // "HELLO"
 ```
+
+<!-- @task, "text" : "Try out the methods given in the example as well as a few others to manipulate strings."-->
 
 <!-- @section -->
 
@@ -429,6 +433,8 @@ obj.details.color; // orange
 obj["details"]["size"]; // 12
 ```
 
+<!-- @task, "hasDeliverable" : true, "text" : "Write an object with several levels of hierarchy and paste the definition here."-->
+
 <!-- @section -->
 
 ## Arrays
@@ -509,7 +515,8 @@ Another way of iterating over an array that was added with ECMAScript 5 is forE
 If you want to append an item to an array simply do it like this:
 
 ```javascript
-a.push(item);```
+a.push(item);
+```
 
 Arrays come with a number of methods. See also the full documentation for array methods.
 
@@ -527,6 +534,8 @@ Arrays come with a number of methods. See also the full documentation for array 
 | `a.sort([cmpfn])` | Takes an optional comparison function. |
 | `a.splice(start, delcount[, item1[, ...[, itemN]]])` | Lets you modify an array by deleting a section and replacing it with more items. |
 | `a.unshift([item])` | Prepends items to the start of the array. |
+
+<!-- @task, "text" : "Experiment with different array methods."-->
 
 <!-- @section -->
 
@@ -793,6 +802,8 @@ Person.prototype.firstNameCaps = function() {
 };
 s.firstNameCaps(); // "SIMON"
 ```
+
+<!-- @task, "text" : "Create your own constructor function using 'this' and 'new'."-->
 
 Interestingly, you can also add things to the prototype of built-in JavaScript objects. Let's add a method to `String` that returns that string in reverse:
 
