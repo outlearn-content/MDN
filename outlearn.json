@@ -7,6 +7,9 @@
   "modules" : [
     {
       "olm" : "./modules/es6-classes.md"
+    },
+    {
+      "olm" : "./modules/re-introduction.md"
     }
   ],
 
