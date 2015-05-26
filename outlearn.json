@@ -10,6 +10,9 @@
     },
     {
       "olm" : "./modules/re-introduction.md"
+    },
+    {
+      "olm" : "./modules/javascript-basics.md"
     }
   ],
 
