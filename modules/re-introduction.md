@@ -138,7 +138,7 @@ isFinite(NaN); // false
 
 > **Note:** The parseInt() and parseFloat() functions parse a string until they reach a character that isn't valid for the specified number format, then return the number parsed up to that point. However the "+" operator simply converts the string to `NaN` if there is any invalid character in it. Just try parsing the string "10.2abc" with each method by yourself in the console and you'll understand the differences better.
 
-<!-- @task, "text" : "Try parsing the string "10.2abc" with parseInt() and parseFloat()."-->
+<!-- @task, "text" : "Try parsing the string \"10.2abc\" with parseInt() and parseFloat()."-->
 
 <!-- @section -->
 
