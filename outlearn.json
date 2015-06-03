@@ -15,7 +15,7 @@
       "olm" : "./modules/javascript-basics.md"
     },
     {
-      "olm" : "./modules/inheritance_and_the_prototype_chain.md"
+      "olm" : "./modules/inheritance-prototype-chain.md"
     }
   ],
 
