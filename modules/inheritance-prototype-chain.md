@@ -22,7 +22,7 @@ While this is often considered to be one of JavaScript's weaknesses, the prototy
 
 JavaScript objects are dynamic "bags" of properties (referred to as **own properties**). JavaScript objects have a link to a prototype object. When trying to access a property of an object, the property will not only be sought on the object but on the prototype of the object, the prototype of the prototype, and so on until either a property with a matching name is found or the end of the prototype chain is reached.
 
-> **Note**: Following the ECMAScript standard, the notation `someObject.[[Prototype]]` is used to designate the prototype of `someObject.` This is equivalent to the JavaScript property `__proto__` (now deprecated). Since ECMAScript 5, the `[[Protoype]]` is accessed using the accessors Object.getPrototypeOf() and Object.setPrototypeOf().
+> **Note**: Following the ECMAScript standard, the notation `someObject.[[Prototype]]` is used to designate the prototype of `someObject.` This is equivalent to the JavaScript property `__proto__` (now deprecated). Since ECMAScript 5, the `[[Prototype]]` is accessed using the accessors Object.getPrototypeOf() and Object.setPrototypeOf().
 
 Here is what happens when trying to access a property:
 
