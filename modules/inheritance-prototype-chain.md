@@ -10,6 +10,10 @@
 }
 -->
 
+<!-- @section, "title": "Introduction" -->
+
+
+
 JavaScript is a bit confusing for developers experienced in class-based languages (like Java or C++), as it is dynamic and does not provide a `class` implementation per se (the `class` keyword is introduced in ES6, but is syntactical sugar, JavaScript will remain prototype-based).
 
 When it comes to inheritance, JavaScript only has one construct: objects. Each object has an internal link to another object called its **prototype**. That prototype object has a prototype of its own, and so on until an object is reached with `null` as its prototype. `null`, by definition, has no prototype, and acts as the final link in this **prototype chain**.
@@ -22,7 +26,7 @@ While this is often considered to be one of JavaScript's weaknesses, the prototy
 
 JavaScript objects are dynamic "bags" of properties (referred to as **own properties**). JavaScript objects have a link to a prototype object. When trying to access a property of an object, the property will not only be sought on the object but on the prototype of the object, the prototype of the prototype, and so on until either a property with a matching name is found or the end of the prototype chain is reached.
 
-> **Note**: Following the ECMAScript standard, the notation `someObject.[[Prototype]]` is used to designate the prototype of `someObject.` This is equivalent to the JavaScript property `__proto__` (now deprecated). Since ECMAScript 5, the `[[Prototype]]` is accessed using the accessors Object.getPrototypeOf() and Object.setPrototypeOf().
+> Following the ECMAScript standard, the notation `someObject.[[Prototype]]` is used to designate the prototype of `someObject.` This is equivalent to the JavaScript property `__proto__` (now deprecated). Since ECMAScript 5, the `[[Prototype]]` is accessed using the accessors `Object.getPrototypeOf()` and `Object.setPrototypeOf()`.
 
 Here is what happens when trying to access a property:
 
@@ -138,7 +142,7 @@ var g = new Graph();
 
 ### With `Object.create`
 
-ECMAScript 5 introduced a new method: Object.create(). Calling this method creates a new object. The prototype of this object is the first argument of the function:
+ECMAScript 5 introduced a new method: `Object.create()`. Calling this method creates a new object. The prototype of this object is the first argument of the function:
 
 ``` javascript
 var a = {a: 1};
@@ -159,7 +163,7 @@ console.log(d.hasOwnProperty);
 
 ### With the `class` keyword
 
-ECMAScript 6 introduced a new set of keywords implementing classes. Although these constructs look like those familiar to developers of class-based languages, they are not. JavaScript remains prototype-based. The new keywords include class, constructor, static, extends, and super.
+ECMAScript 6 introduced a new set of keywords implementing classes. Although these constructs look like those familiar to developers of class-based languages, they are not. JavaScript remains prototype-based. The new keywords include `class`, `constructor`, `static`, `extends`, and `super`.
 
 ``` javascript
 "use strict";
@@ -197,7 +201,7 @@ To check whether an object has a property defined on *itself* and not somewhere 
 
 `hasOwnProperty` is the only thing in JavaScript which deals with properties and does **not** traverse the prototype chain.
 
-> **Note**:  It is **not** enough to check whether a property is `undefined`. The property might very well exist, but its value just happens to be set to `undefined`.
+Note: It is **not** enough to check whether a property is `undefined`. The property might very well exist, but its value just happens to be set to `undefined`.
 
 ### Bad practice: Extension of native prototypes
 
