@@ -59,7 +59,15 @@ So your heading text has been changed to "Hello world!" using JavaScript. We did
 
 After that, we set the value of the `myHeading` variable's' `innerHTML` property (which represents the content of the heading) to "Hello world!".
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"multiple_choice\": \"Why is it good to put the script-tag near the bottom of the HTML file?\", \"answers\" : [ \"It is easier to find.\", \"It makes JS load faster.\", \"It ensures the proper processing of the page.\" ], \"correct\" : 2 }"-->
+<!-- @multipleChoice -->
+
+Why is it good to put the script-tag near the bottom of the HTML file?
+
+- [ ] It is easier to find
+- [ ] It makes JS load faster
+- [X] It ensures the proper processing of the page
+
+<!-- @end -->
 
 <!-- @section -->
 
@@ -308,7 +316,16 @@ Next we will add another bit of code, to change the page's title to include a pe
   }
   ```
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"multiple_choice\": \"In step 4. above, the if-else construction makes sure that: \", \"answers\" : [ \"The item `name` is not used before it is defined\", \"The item `name` will not be stored locally\", \"The item `name` cannot be changed later\" ], \"correct\" : 0 }"-->
+
+<!-- @multipleChoice -->
+
+In step 4. above, the if-else construction ensures that:
+
+- [X] The item `name` is not used before it is defined
+- [ ] The item `name` will not be stored locally
+- [ ] The item `name` cannot be changed later
+
+<!-- @end (multipleChoice) -->
 
 Now when you first visit the site, it'll ask you for your user name then give you a personalized message. You can then change the name any time you like by pressing the button. As an added bonus, because the name is stored inside localStorage, it persists after the site is closed down, so the personalized message will still be there when you open the site up again!
 
