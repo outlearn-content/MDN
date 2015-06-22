@@ -51,7 +51,7 @@ HOWEVER, JavaScript is a bit more complex to get comfortable with than HTML and 
 
 > **Note**: The reason we've put the `<script>` element near the bottom of the HTML file is that HTML is loaded by the browser in the order it appears in the file. If the JavaScript is loaded first and it is supposed to affect the HTML below it, it might not work, as the JavaScript would be loaded before the HTML it is supposed to  work on. Therefore, near the bottom of the page often the best strategy.
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Edit your `main.js` file to change the heading.\", \"deliverable\" : \"Paste the content of your `main.js` here.\" }"-->
+<!-- @task, "text" : "Edit you `main.js` file to change the heading.  Paste the content of your `main.js` here.", "hasDeliverable": true -->
 
 ## What happened?
 
@@ -214,7 +214,7 @@ multiply(0.5,3);
 
 Create a new function `divide()` that takes as input two numbers `num1` and `num2` and returns `num1/num2`.
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create a function divide()\", \"deliverable\" : \"Paste the content of divide() here.\" }"-->
+<!-- @task, "text" : "Create a function divide().", "hasDeliverable" : true -->
 
 ## Events
 
