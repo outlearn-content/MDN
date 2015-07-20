@@ -5,18 +5,10 @@
   ],
 
   "modules" : [
-    {
-      "olm" : "./modules/es6-classes.md"
-    },
-    {
-      "olm" : "./modules/re-introduction.md"
-    },
-    {
-      "olm" : "./modules/javascript-basics.md"
-    },
-    {
-      "olm" : "./modules/inheritance-prototype-chain.md"
-    }
+    {"olm" : "./modules/es6-classes.md"},
+    {"olm" : "./modules/re-introduction.md"},
+    {"olm" : "./modules/javascript-basics.md"},
+    {"olm" : "./modules/inheritance-prototype-chain.md"}
   ],
 
   "assets" : [
