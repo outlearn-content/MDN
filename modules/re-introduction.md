@@ -501,7 +501,7 @@ for (var i = 0, item; item = a[i++];) {
 
 Here we are setting up two variables. The assignment in the middle part of the `for` loop is also tested for truthfulness — if it succeeds, the loop continues. Since `i` is incremented each time, items from the array will be assigned to item in sequential order. The loop stops when a "falsy" item is found (such as `undefined`).
 
-This trick should only be used for arrays which you know do not contain "falsy" values (arrays of objects or DOM nodes for example). If you are iterating over numeric data that might include a 0 or string data that might include the empty string you should use the `i, len` idiom instead.
+This trick should only be used for arrays which you know do not contain "falsy" values (arrays of objects or DOM nodes for example). If you are iterating over numeric data that might include a `0` or string data that might include the empty string you should use the `i, len` idiom instead.
 
 You can iterate over an array using a `for...in` loop. Note that if someone added new properties to `Array.prototype`, they will also be iterated over by this loop.  Therefore this method is "not" recommended.
 
@@ -526,7 +526,7 @@ Arrays come with a number of methods. See also the full documentation for array 
 | `a.toString()` | Returns a string with the `toString()` of each element separated by commas. |
 | `a.toLocaleString()` | Returns a string with the `toLocaleString()` of each element separated by commas. |
 | `a.concat(item1[, item2[, ...[, itemN]]])` | Returns a new array with the items added on to it. |
-| `a.join(sep)` | Converts the array to a string - values delimited by the `sep` param |
+| `a.join(sep)` | Converts the array to a string - values delimited by the `sep` param. |
 | `a.pop()` | Removes and returns the last item. |
 | `a.push(item1, ..., itemN)` | `Push` adds one or more items to the end. |
 | `a.reverse()` | Reverse the array. |
