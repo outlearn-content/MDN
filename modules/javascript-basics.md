@@ -4,6 +4,7 @@
 "version" : "0.0.1",
 "title" : "JavaScript Basics",
 "description" : "JavaScript is a programming language that adds interactivity to your website.",
+"author" : "Mozilla Developer Network",
 "homepage" : "https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics",
 "canonicalSource" : "https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics",
 "author" : "Mozilla Developer Network",

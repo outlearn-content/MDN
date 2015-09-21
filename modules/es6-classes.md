@@ -4,6 +4,7 @@
 "version" : "0.1",
 "title" : "ECMAScript 6 Classes",
 "description" : "Understand how classes work in ES6",
+"author" : "Mozilla Developer Network",
 "homepage" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
 "canonicalSource" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
 "freshnessDate" : 2015-05-18,

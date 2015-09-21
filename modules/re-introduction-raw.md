@@ -4,6 +4,7 @@
 "version" : "0.1",
 "title" : "A re-introduction to JavaScript (JS tutorial)",
 "description" : "Why a re-introduction? Because JavaScript is notorious for being the world's most misunderstood programming language.",
+"author" : "Mozilla Developer Network",
 "homepage" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
 "freshnessDate" : 2015-05-25,
 "license" : "CC BY-SA 2.5"

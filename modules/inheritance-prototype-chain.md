@@ -4,6 +4,7 @@
 "version" : "0.1",
 "title" : "Inheritance and the Prototype Chain",
 "description" : "Learn how inheritance works in JavaScript and how it is different from class-based languages.",
+"author" : "Mozilla Developer Network",
 "homepage" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain",
 "canonicalSource" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain",
 "freshnessDate" : 2015-05-25,
