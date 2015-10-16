@@ -435,7 +435,7 @@ obj.details.color; // orange
 obj["details"]["size"]; // 12
 ```
 
-<!-- @task, "hasDeliverable" : true, "text" : "Write an object with several levels of hierarchy and paste the definition here."-->
+<!-- @task, "hasDeliverable" : true, "text" : "Write an object with several levels of hierarchy."-->
 
 <!-- @section -->
 
